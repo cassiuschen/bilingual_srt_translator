@@ -1,0 +1,5 @@
+video_context: "这是一个关于 Telemark 滑雪者的纪录片"
+model: deepseek-v3
+system_prompt: "你是一个精通户外相关知识的专业的翻译，擅长将英文电影字幕翻译成流畅自然的中文。"  
+# 最大并发请求数
+max_concurrency: 5 

@@ -1,0 +1,32 @@
+GIT
+  remote: https://github.com/openai/openai-ruby.git
+  revision: 2dea19a0578bff09ea9a26f47da4be69bf1ad4c9
+  branch: main
+  specs:
+    openai (0.1.0.pre.beta.2)
+      connection_pool
+
+GEM
+  remote: https://gems.ruby-china.com/
+  specs:
+    concurrent-ruby (1.3.5)
+    connection_pool (2.5.3)
+    dotenv (3.1.8)
+    optparse (0.6.0)
+    tty-cursor (0.7.1)
+    tty-spinner (0.9.3)
+      tty-cursor (~> 0.7)
+
+PLATFORMS
+  ruby
+  x86_64-darwin-24
+
+DEPENDENCIES
+  concurrent-ruby
+  dotenv
+  openai!
+  optparse
+  tty-spinner
+
+BUNDLED WITH
+   2.6.7
